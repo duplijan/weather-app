@@ -84,13 +84,14 @@ function getWeather(){
   }
 
   function changeImage(weat){
-    elements.img.src =  `./Images/${weat}.jpg`;
+    let weather = weat.toLowerCase();
+    elements.img.src =  `./img/${weather}.jpg`;
   }
 
   function loader(){
     const loader =  `
           <div class="loader">
-            <img class='loader-icon' src="./Images/loader.png" alt="">
+            <img class='loader-icon' src="./img/loader.png" alt="">
           </div>
     `;
     elements.section.parentNode.insertAdjacentHTML('afterbegin',loader);
