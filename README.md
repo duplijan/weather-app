@@ -1,2 +1,2 @@
-https://duplijan.github.io/weather-app/
-weather app
+Data from openweathermap.org API
+
